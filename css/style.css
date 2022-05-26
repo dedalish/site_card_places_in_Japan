@@ -1,3 +1,5 @@
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -544,7 +546,7 @@ background: rgb(0, 0, 0, 0.8);
         display: grid;
         -ms-grid-columns: 1fr 55px 1fr 55px 1fr;
         grid-template-columns: repeat(3, 1fr);
-        column-gap: 55px;
+        grid-column-gap: 55px;
         padding: 0 100px;
     }
 
@@ -639,8 +641,8 @@ background: rgb(0, 0, 0, 0.8);
         display: grid;
         -ms-grid-columns: 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr;
         grid-template-columns: repeat(6, 1fr);
-        column-gap: 10px;
-        row-gap: 10px;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
     }
 
     .places__card{
@@ -730,7 +732,7 @@ background: rgb(0, 0, 0, 0.8);
         display: grid;
         -ms-grid-columns: 1fr 108px 1fr;
         grid-template-columns: repeat(2, 1fr);
-        column-gap: 108px;
+        grid-column-gap: 108px;
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;   
@@ -791,8 +793,8 @@ background: rgb(0, 0, 0, 0.8);
         display: grid;
         -ms-grid-columns: 1fr 57px 1fr 57px 1fr 57px 1fr 57px 1fr 57px 1fr;
         grid-template-columns: repeat(6, 1fr);
-        column-gap: 57px;
-        row-gap: 57px;
+        grid-column-gap: 57px;
+        grid-row-gap: 57px;
     }
 
     .top__card-pic{
@@ -962,7 +964,7 @@ background: rgb(0, 0, 0, 0.8);
     }
     .benefits__cards{
         padding: 0 15px;
-        column-gap: 35px;
+        grid-column-gap: 35px;
     }
 
     .benefits__title{
@@ -985,7 +987,7 @@ background: rgb(0, 0, 0, 0.8);
     }
 
     .tours__tour{
-        column-gap: 32px;
+        grid-column-gap: 32px;
     }
     .tours__tour:last-child{
         margin-bottom: 0px
@@ -1008,8 +1010,8 @@ background: rgb(0, 0, 0, 0.8);
     }
 
     .top__cards{
-        column-gap: 25px;
-        row-gap: 55px;
+        grid-column-gap: 25px;
+        grid-row-gap: 55px;
     }
 
     .footer{
